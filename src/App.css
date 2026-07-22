@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    background: #d8d8d6;
+    color: #1f1f1e;
+    min-height: 100vh;
+    padding: 32px 16px;
+}
+
+.app {
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.app-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #b1b0ac;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+
+.summary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.summary-card {
+    background: #ffffff;
+    border: 1px solid #e3e1da;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.summary-label {
+    font-size: 13px;
+    color: #5c5a56;
+    margin-bottom: 4px;
+}
+
+.summary-value {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.income {
+    color: #18dc09;
+}
+
+.expense {
+    color: #bd1616;
+}
+
+.form-card {
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.transaction-form {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr auto;
+    gap: 8px;
+}
+
+.input {
+    height: 36px;
+    padding: 0 10px;
+    border: 1px solid #d8d6cf;
+    border-radius: 8px;
+    font-size: 14px;
+    background: #fff;
+    color: inherit;
+}
+
+
+.btn {
+    height: 36px;
+    padding: 0 14px;
+    border: 1px solid #c1bdbd;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.btn-add {
+    background: #1c1b1b;
+    color: #fff;
+    border-color: #1e1e1c;
+}
+
+.form-error {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ef1d1d;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.filters-label {
+    font-size: 14px;
+    color: #42423f;
+}
+
+.list-card {
+    overflow: hidden;
+}
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 2px solid #f4f3f0;
+}
+
+
+.transaction-desc {
+    font-size: 14px;
+}
+
+.transaction-category {
+    font-size: 12px;
+    color: #75746f;
+}
+
+.transaction-right {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.transaction-amount {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-delete {
+    padding: 4px 8px;
+    height: auto;
+    font-size: 14px;
+}
+
+.empty-message {
+    padding: 16px;
+    font-size: 14px;
+    color: #a8a8a5;
+    text-align: center;
+}
